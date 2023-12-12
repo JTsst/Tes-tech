@@ -53,10 +53,71 @@ string str = "i am a lie"+" and i am not a lie";
 
 Console.WriteLine(str);
 */
-
+/*
 int x = 4;
 
 
 bool isFour = x == 4;
 
 Console.WriteLine("x os 4 " + isFour);
+*/
+
+/* opgave 7
+int Firstnumber, Secondnumber;
+
+Console.WriteLine("give me the first number");
+Firstnumber = int.Parse (Console.ReadLine()!);
+
+Console.WriteLine("give me the second number");
+Secondnumber = int.Parse (Console.ReadLine()!);
+
+Console.WriteLine(Firstnumber +" + "+ Secondnumber + " = " + (Firstnumber + Secondnumber));
+
+Console.WriteLine(Firstnumber +" - "+ Secondnumber + " = " + (Firstnumber - Secondnumber));
+
+Console.WriteLine(Firstnumber +" * "+ Secondnumber + " = " + (Firstnumber * Secondnumber));
+
+Console.WriteLine(Firstnumber +" / "+ Secondnumber + " = " + (Firstnumber / Secondnumber));
+
+Console.WriteLine(Firstnumber +" mod "+ Secondnumber + " = " + (Firstnumber % Secondnumber));
+*/
+
+/* opgave 8
+int multiplynumber;
+Console.WriteLine("give me to multiply");
+multiplynumber = int.Parse (Console.ReadLine()!);
+Console.WriteLine(multiplynumber +" * "+ 0 + " = " + (multiplynumber * 0));
+Console.WriteLine(multiplynumber +" * "+ 1 + " = " + (multiplynumber * 1));
+Console.WriteLine(multiplynumber +" * "+ 2 + " = " + (multiplynumber * 2));
+Console.WriteLine(multiplynumber +" * "+ 3 + " = " + (multiplynumber * 3));
+Console.WriteLine(multiplynumber +" * "+ 4 + " = " + (multiplynumber * 4));
+Console.WriteLine(multiplynumber +" * "+ 5 + " = " + (multiplynumber * 5));
+Console.WriteLine(multiplynumber +" * "+ 6 + " = " + (multiplynumber * 6));
+Console.WriteLine(multiplynumber +" * "+ 7 + " = " + (multiplynumber * 7));
+Console.WriteLine(multiplynumber +" * "+ 8 + " = " + (multiplynumber * 8));
+Console.WriteLine(multiplynumber +" * "+ 9 + " = " + (multiplynumber * 9));
+Console.WriteLine(multiplynumber +" * "+ 10 + " = " + (multiplynumber * 10));
+*/
+/* opgave 9
+int avnumber1, avnumber2, avnumber3, avnumber4;
+Console.WriteLine("give me the first number");
+avnumber1 = int.Parse (Console.ReadLine()!);
+Console.WriteLine("give me the second number");
+avnumber2 = int.Parse (Console.ReadLine()!);
+Console.WriteLine("give me the third number");
+avnumber3 = int.Parse (Console.ReadLine()!);
+Console.WriteLine("give me the fourth number");
+avnumber4 = int.Parse (Console.ReadLine()!);
+Console.WriteLine("the average of " + avnumber1 + ", " + avnumber2 + ", " + avnumber3 + ", " + avnumber4 + " is " + (avnumber1 + avnumber2 + avnumber3 + avnumber4) / 4);
+*/
+/* opgave 1-5 1
+string letter1,letter2,letter3;
+Console.WriteLine("give me the first letter");
+letter1 = Console.ReadLine()!;
+Console.WriteLine("give me the second letter");
+letter2 = Console.ReadLine()!;
+Console.WriteLine("give me the third letter");
+letter3 = Console.ReadLine()!;
+Console.WriteLine(letter3 + letter2 + letter1);
+*/
+
