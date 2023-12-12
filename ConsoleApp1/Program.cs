@@ -10,11 +10,11 @@ idk */
 // this is how to write console 
 //console.writeline is a new line
 //console.write is not a new line 
-Console.WriteLine("Cake is a lie!");
+//Console.WriteLine("Cake is a lie!");
 
-Console.Write("potato is a lie! ");
+//Console.Write("potato is a lie! ");
 
-Console.WriteLine("i am a lie?");
+//Console.WriteLine("i am a lie?");
 
 //data types: int, string, bool, double, float, char, decimal, long, short, byte, uint, ulong, ushort, sbyte
 /*int is a whole number
@@ -32,7 +32,7 @@ ulong is a whole number
 ushort is a whole number
 sbyte is a whole number
 */
-
+/*
 //variables 
 int x;
 // it need to be given a value
@@ -52,3 +52,11 @@ Console.WriteLine("e = " + e);
 string str = "i am a lie"+" and i am not a lie";
 
 Console.WriteLine(str);
+*/
+
+int x = 4;
+
+
+bool isFour = x == 4;
+
+Console.WriteLine("x os 4 " + isFour);
