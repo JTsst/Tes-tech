@@ -120,4 +120,54 @@ Console.WriteLine("give me the third letter");
 letter3 = Console.ReadLine()!;
 Console.WriteLine(letter3 + letter2 + letter1);
 */
+// opgave 1-5 2
+/*
+int width = 0; // Replace 0 with the desired value for width
+int numbertri = width;
+Console.WriteLine("give me the a number");
+numbertri = int.Parse (Console.ReadLine()!);
+
+
+int height = width;
+
+Console.WriteLine();
+for (int row=0; row < height; row++)
+{
+    for (int col=0; col < width; col++)
+    {
+        Console.Write(numbertri);
+    }
+    Console.WriteLine();
+    width--;
+}
+{
+    Console.WriteLine(numbertri);
+}
+*/
+
+
+
+
+/*
+// if statements
+int x = 4;
+int numberif = x;
+if (numberif == 4)
+{
+    Console.WriteLine("numberif is 4");
+}
+*/
+/*
+// if else statements
+int x = 4;
+int numberifelse = x;
+if (numberifelse > 5)
+{
+    Console.WriteLine("numberifelse is greater than 5");
+}
+else
+{
+    Console.WriteLine("numberifelse is less than 5");
+}
+*/
 
