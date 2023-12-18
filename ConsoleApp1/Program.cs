@@ -82,22 +82,22 @@ Console.WriteLine(Firstnumber +" / "+ Secondnumber + " = " + (Firstnumber / Seco
 Console.WriteLine(Firstnumber +" mod "+ Secondnumber + " = " + (Firstnumber % Secondnumber));
 */
 
-/* opgave 8
-int multiplynumber;
-Console.WriteLine("give me to multiply");
-multiplynumber = int.Parse (Console.ReadLine()!);
-Console.WriteLine(multiplynumber +" * "+ 0 + " = " + (multiplynumber * 0));
-Console.WriteLine(multiplynumber +" * "+ 1 + " = " + (multiplynumber * 1));
-Console.WriteLine(multiplynumber +" * "+ 2 + " = " + (multiplynumber * 2));
-Console.WriteLine(multiplynumber +" * "+ 3 + " = " + (multiplynumber * 3));
-Console.WriteLine(multiplynumber +" * "+ 4 + " = " + (multiplynumber * 4));
-Console.WriteLine(multiplynumber +" * "+ 5 + " = " + (multiplynumber * 5));
-Console.WriteLine(multiplynumber +" * "+ 6 + " = " + (multiplynumber * 6));
-Console.WriteLine(multiplynumber +" * "+ 7 + " = " + (multiplynumber * 7));
-Console.WriteLine(multiplynumber +" * "+ 8 + " = " + (multiplynumber * 8));
-Console.WriteLine(multiplynumber +" * "+ 9 + " = " + (multiplynumber * 9));
-Console.WriteLine(multiplynumber +" * "+ 10 + " = " + (multiplynumber * 10));
-*/
+// opgave 8 Write a C# Sharp program that prints the multiplication table of a number as input.
+int multiplyNumber;
+Console.WriteLine("give me a number to multiply");
+multiplyNumber = int.Parse (Console.ReadLine()!);// int.Parse is to convert string to int
+Console.WriteLine(multiplyNumber +" * "+ 0 + " = " + (multiplyNumber * 0));
+Console.WriteLine(multiplyNumber +" * "+ 1 + " = " + (multiplyNumber * 1));
+Console.WriteLine(multiplyNumber +" * "+ 2 + " = " + (multiplyNumber * 2));
+Console.WriteLine(multiplyNumber +" * "+ 3 + " = " + (multiplyNumber * 3));
+Console.WriteLine(multiplyNumber +" * "+ 4 + " = " + (multiplyNumber * 4));
+Console.WriteLine(multiplyNumber +" * "+ 5 + " = " + (multiplyNumber * 5));
+Console.WriteLine(multiplyNumber +" * "+ 6 + " = " + (multiplyNumber * 6));
+Console.WriteLine(multiplyNumber +" * "+ 7 + " = " + (multiplyNumber * 7));
+Console.WriteLine(multiplyNumber +" * "+ 8 + " = " + (multiplyNumber * 8));
+Console.WriteLine(multiplyNumber +" * "+ 9 + " = " + (multiplyNumber * 9));
+Console.WriteLine(multiplyNumber +" * "+ 10 + " = " + (multiplyNumber * 10));
+
 /* opgave 9
 int avnumber1, avnumber2, avnumber3, avnumber4;
 Console.WriteLine("give me the first number");
