@@ -514,3 +514,36 @@ Console.WriteLine("the average of 10 numbers is : {0}", average);
 	 Console.Write("Number is : {0} and cube of the {1} is :{2} \n",i,i, (i*i*i));     
 }
 */
+
+//whileloop opgave 1.1
+
+/*int i, sumeven = 0, sumodd = 0, n = 0;
+Console.WriteLine("give me a number and even and odd will be sumed up to that number");
+while(n == 0)
+{
+    Console.WriteLine("give me a number");
+    i = int.Parse (Console.ReadLine()!);
+    if (i % 2 == 0){
+        sumeven = sumeven + i;
+        Console.WriteLine("even number {0} and odd number {1}",sumeven,sumodd);
+    }
+    else {
+        sumodd = sumodd + i;
+        Console.WriteLine("even number {0} and odd number {1}",sumeven,sumodd);
+    }
+    
+}
+*/
+// opgave 1.2
+int i1, i2, HCF, n = 0;
+
+while(n == 0){
+    Console.WriteLine("give me a number");
+    i1 = int.Parse (Console.ReadLine()!);
+    Console.WriteLine("give me another number");
+    i2 = int.Parse (Console.ReadLine()!);
+
+    if(i1 % 2 == 0 | i2 % 2 == 0){
+    }
+
+}
