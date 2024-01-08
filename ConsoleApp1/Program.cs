@@ -544,6 +544,29 @@ while(n == 0){
     i2 = int.Parse (Console.ReadLine()!);
 
     if(i1 % 2 == 0 | i2 % 2 == 0){
+        
     }
 
 }
+
+// vinterferie opgave 
+/*
+int i = 5, j = 10, n = 0, sum = -2 ;
+i = j + j;
+
+if (i == 10){
+    n = 1;
+}
+else if (i == 15){
+    n = 2;
+}
+else if (i == 20){
+    n = 3;
+}
+else {
+    n = 4;
+}
+sum = n + i - j;
+sum = sum++;
+Console.Write(sum);
+*/
