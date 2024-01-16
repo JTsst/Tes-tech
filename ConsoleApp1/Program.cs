@@ -570,3 +570,6 @@ sum = n + i - j;
 sum = sum++;
 Console.Write(sum);
 */
+// opgave 5
+Console.WriteLine
+int[] numbers = elements int[5];
