@@ -178,7 +178,8 @@ else
 //switch comparisons done with <, >, <=, >=, ==, !=, and the is and as operators
 
 // opgave 11
-/*int a, b, c;
+/*
+int a, b, c;
 double d, x1, x2;
 
 Console.WriteLine("give me the first number a");
@@ -535,7 +536,7 @@ while(n == 0)
 }
 */
 // opgave 1.2
-int i1, i2, HCF, n = 0;
+/*int i1, i2, HCF, n = 0;
 
 while(n == 0){
     Console.WriteLine("give me a number");
@@ -548,7 +549,7 @@ while(n == 0){
     }
 
 }
-
+*/
 // vinterferie opgave 
 /*
 int i = 5, j = 10, n = 0, sum = -2 ;
@@ -570,6 +571,4 @@ sum = n + i - j;
 sum = sum++;
 Console.Write(sum);
 */
-// opgave 5
-Console.WriteLine
-int[] numbers = elements int[5];
+// opgave 
