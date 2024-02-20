@@ -572,3 +572,30 @@ sum = sum++;
 Console.Write(sum);
 */
 // opgave 
+/*Console.WriteLine("input a number");
+int number = Convert.ToInt32(Console.ReadLine());
+
+If (number > 0)
+{
+Console.WriteLine("the input is bigger then 0")
+    if (number > 10)
+    { 
+     number = number/2;
+    }
+Console.WriteLine($"the output is {number}",number) 
+}
+*/
+Console.WriteLine("input a number");
+int number = Convert.ToInt32(Console.ReadLine());
+
+if(number>0)
+{
+    Console.WriteLine("the input is bigger then 0");
+    if(number>10)
+    {
+        number = number/2;
+    }
+    Console.WriteLine($"the output is {number}");
+}
+
+
